@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Delivery</title>
+    <link rel="stylesheet" href="E-commerce.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Roboto:wght@300&display=swap" rel="stylesheet">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+
+</head>
+<body>
+    <nav class="nav1">
+        <div class="left">
+            <span>Welcome to my Food-Shop</span>
+            <a href="#">Register</a> or 
+            <a href="#">Login</a>
+        </div>
+       
+    </nav>
+    <!--nav1 end and nav2 start-->
+    <nav class="nav2">
+        <div class="nav2-left">
+            <i class="fa fa-phone"></i> +91 8674589378
+            <i class="fa fa-envelope"></i> food2522000@gmail.com
+        </div>
+        <div class="nav2-center">
+            <h1>FOOD-<span>Shop</span></h1>
+           
+        </div>
+        <div class="nav2-right">
+            <a href="#contact"><span class="text-danger">
+            <i class="fa fa-map"> contact</i></a></span>
+        </div>
+    </nav>
+    <!--nav2 end nav3 start-->
+    <nav class="nav3">
+        <ul>
+            <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fa fa-user"></i>Menu</a></li>
+            <li><a href="#"><i class="fa fa-user"></i>Orders</a></li>
+            <li><a href="#"></i>Meals <i class="fa fa-caret-down"></i></a>
+            <ul>
+                <li><a href="#"></i>Breakfast</a></li>
+                <li><a href="#"></i>Lunch</a></li>
+                <li><a href="#"></i>Dinner</a></li>
+            </ul>
+        </li>
+            <li><a href="#"><i class="fa fa-calendar-check-o"></i>Special items</a></li>
+            <li><a href="#"><i class="fa fa-search"></i>Find</a></li>
+        </ul>
+    </nav>
+    <!--creating a menu button-->
+    <section id="sidenav">
+        <ul>
+            <li><a href="#"><i class="fa fa-home"></i>Home</a></li>
+            <li><a href="#"><i class="fa fa-user"></i>Menu</a></li>
+            <li><a href="#"><i class="fa fa-user"></i>Order</a></li>
+            <li><a href="#"><i class="fa fa-calendar-check-o"></i>Special items</a></li>
+            <li><a href="#"><i class="fa fa-search"></i>Find</a></li>
+            <li><a href="#"></i>Meals <i class="fa fa-caret-down"></i></a>
+                <ul>
+                    <li><a href="#"></i>Breakfast</a></li>
+                    <li><a href="#"></i>Lunch</a></li>
+                    <li><a href="#"></i>Dinner</a></li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+    <i class="fa fa-anchor" id="menubar"></i>
+    <!--menu button end-->
+    <!--featured Start-->
+    <section class="featured">
+        <div class="featured-text">
+            <button>Delicious Delights</button>
+            <h2>Our Foods are Tasty </h2>
+        </div>
+    </section>
+    <!--featured end-->
+
+    <!--latest section start-->
+    <section  class="menu items">
+        <div class="food-items">
+            <h1>Menu <span>items</span></h1>
+            <p>Variety delicious foods are here, feel to free ask.</p>
+        </div>
+        <div class="card-container">
+        <div class="card">
+            <div>
+                <img src="./Images/dosa.jpg" alt="">
+            </div>
+            <h1>Dosa</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>$55.00</p>
+            <button>Add to card</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="./Images/idly.jpg" alt="">
+            </div>
+            <h1>Idli</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>$60.00</p>
+            <button>Add to card</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="./Images/poori.webp" alt="">
+            </div>
+            <h1>Poori</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>$65.00</p>
+            <button>Add to card</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="./Images/chibiri.jpeg" alt="">
+            </div>
+            <h1>Chicken Biryani</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>$170.00</p>
+            <button>Add to card</button>
+        </div>
+        </div>
+        <div class="card-container">
+            <div class="card">
+                <div>
+                    <img src="./Images/vegbiri.jpeg" alt="">
+                </div>
+                <h1>Veg Biryani</h1>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$150.00</p>
+                <button>Add to card</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./Images/mutbiri.jpg" alt="">
+                </div>
+                <h1>Mutton Biryani</h1>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$200.00</p>
+                <button>Add to card</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./Images/chapati.jpeg" alt="">
+                </div>
+                <h1>Chapati</h1>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$90.00</p>
+                <button>Add to card</button>
+            </div>
+            <div class="card">
+                <div>
+                    <img src="./Images/barotta.jpeg" alt="">
+                </div>
+                <h1>Barotta</h1>
+                <span>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                </span>
+                <p>$110.00</p>
+                <button>Add to card</button>
+            </div>
+            </div>
+    </section>
+    <!--latest section end-->
+    <!-- dessert section -->
+    <section id="dessert" class="dessert_wrapper wrapper">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-12 text-center mb-4 mt-5" data-aos="zoom-in" data-bs-offset="200">
+              <h1>Our <span class="text-primary"> Dessert</span></h1>
+              <hr class="w-25 m-auto">
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-bs-offset="200">
+              <img decoding="async"
+                src="./Images/flu.jpg"
+                class="w-100 h-60"
+              />
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-bs-offset="200">
+              <img
+                decoding="async"
+                src="./Images/cake.jpeg"
+                class="w-100 h-100"
+              />
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-bs-offset="200">
+              <img decoding="async"
+                src="./Images/choco.jpeg"
+                class="w-100 h-100"
+              />
+            </div>
+            <div class="col-md-4 col-sm-6 mb-4" data-aos="zoom-in" data-bs-offset="200">
+              <img decoding="async"
+                src="./Images/kufi.jpg"
+                class="w-100 h-100"
+              />
+            </div>
+            <div class="col-md-8 col-sm-6 mb-4" data-aos="zoom-in" data-bs-offset="200">
+              <img
+                decoding="async"
+                src="./Images/dessert.webp"
+                class="w-100 h-100"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+  
+      <!-- dessert Section Exit -->
+  
+
+    
+    <!-- special dishes start -->
+    <section  class="latest">
+        <div class="special-dishes">
+            <h1>Special<span> Dishes</span></h1>
+            <p>Our special foods are very tasty and spicy.</p>
+        </div>
+        <div class="card-container">
+        <div class="card">
+            <div>
+                <img src="./Images/Aloo Gobi.jpg" alt="">
+            </div>
+            <h1>Aloo Gobi</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>$200.00</p>
+            <button>Add to card</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="./Images/butter chicken.jpg" alt="">
+            </div>
+            <h1>Butter Chicken</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>$300.00</p>
+            <button>Add to card</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="./Images/Matar Paneer.jpg" alt="">
+            </div>
+            <h1>Matar Paneer</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>$350.00</p>
+            <button>Add to card</button>
+        </div>
+        <div class="card">
+            <div>
+                <img src="./Images/naan.jpg" alt="">
+            </div>
+            <h1>White Girls Crop Top</h1>
+            <span>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+                <i class="fa fa-star"></i>
+            </span>
+            <p>$390.00</p>
+            <button>Add to card</button>
+        </div>
+        </div>
+    </section>
+
+
+
+    <!-- special dishes end-->
+
+    <!--trends start-->
+    <section class="trends">
+        <div class="product-intro">
+            <h1>Special <span>Offers</span></h1>
+            <p>Limited-Time Promotions: Don’t miss out on exciting discounts and combo deals for a limited time..</p>
+        </div>
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <img src="./Images/image 1.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./Images/image 2.webp" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./Images/image 3.webp" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./Images/image 4.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./Images/image 5.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./Images/image 6.jpeg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./Images/image 7.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./Images/image 8.jpg" />
+              </div>
+              <div class="swiper-slide">
+                <img src="./Images/image 9.jpg" />
+              </div>
+              
+              <div class="swiper-pagination"></div>
+  </div>
+
+
+    </section>
+    <!--trends end-->
+    <!--Contact session start-->
+    <section class="contact" id="contact">
+        <div class="container">
+          <div class="text-center">
+            <h1>Feel <span class="text-danger surtle">free to</span> contact</h1>
+            <hr class="w-25 m-auto">
+        </div>
+        <div class="row">
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12" data-aos="fade-up" data-aos-offset="500">
+              <form name="submit-to-google-sheet" class="row g-3">
+                <div class="col-12">
+                  <label for="inputtext" class="form-label">Name</label>
+                  <input type="text" name="Name" class="form-control" id="inputAddress" placeholder="User name">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputEmail4" class="form-label">Email</label>
+                  <input type="email" name="Email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputtext" class="form-label">Mob No:</label>
+                  <input type="number" name="Mob No" class="form-control" id="Mobile">
+                </div>
+                <div class="col-12">
+                  <label for="inputAddress" class="form-label">Address</label>
+                  <input type="text" name="Address"  class="form-control" id="inputAddress" placeholder="user Address">
+                </div>
+                <div class="col-md-6">
+                  <label for="inputCity" class="form-label">City</label>
+                  <input type="text" name="City" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-3">
+                  <label for="inputState" class="form-label">State</label>
+                  <select id="inputState" name="State" class="form-select">
+                    <option selected>Choose...</option>
+                    <option>Chennai</option>
+                    <option>Dehli</option>
+                    <option>Kerala</option>
+                  </select>
+                </div>
+                <div class="col-md-3">
+                  <label for="inputZip" class="form-label">pin</label>
+                  <input type="number" name="Pin" class="form-control" id="pin">
+                </div>
+                <div class="col-12">
+                  <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="gridCheck">
+                    <label class="form-check-label" for="gridCheck">
+                      Check me out
+                    </label>
+                  </div>
+                </div>
+                <div class="col-12 text-center">
+                  <button type="submit" class="btn btn-info text-center">Submit</button>
+                </div>
+              </form>
+              <span class="text-center fs-4" id="msg"></span>
+          </div>
+          <div class="col-sm-12 col-md-6 col-lg-6 col-12 w-auto text-center" data-aos="fade-up" data-aos-offset="500">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d248876.52325682464!2d80.06365112356696!3d12.927270726490855!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a526728b6b982a5%3A0xf1b8c9abed003a9c!2sFood%20court!5e0!3m2!1sen!2sin!4v1720182194652!5m2!1sen!2sin"
+              width="600" 
+              height="450" 
+              style="border:0;" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+          
+        </div>
+        </div>
+      </section>
+
+
+    <!--contact session end-->
+
+    <!--footer section start-->
+    <footer>
+        <div>
+            <h1>Food- <span>Shop</span></h1>
+            <p>Every tasty foods are here</p>
+        </div>
+        <div> 
+            <i class="fa fa-facebook"></i>
+            <i class="fa fa-instagram"></i>
+            <i class="fa fa-whatsapp"></i>
+            <i class="fa fa-twitter"></i>
+            <i class="fa fa-pinterest"></i>
+            <p>Food delivery System</p>
+        </div>
+        <div>
+            <p>1st floor ATS building </p>
+            <p>Food Shop 'Chennai'</p>
+        </div>
+    </footer>
+    <!--footer section ends-->
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+   
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+          effect: "coverflow",
+          grabCursor: true,
+          centeredSlides: true,
+          slidesPerView: "auto",
+          coverflowEffect: {
+            rotate: 50,
+            stretch: 0,
+            depth: 1200,
+            modifier: 1,
+            slideShadows: false,
+          },
+          pagination: {
+            el: ".swiper-pagination",
+          },
+        });
+      </script>
+      <script>
+        var sidenav= document.getElementById('sidenav');
+        var menubar= document.getElementById('menubar');
+        sidenav.style.width="0px";
+        menubar.onclick=function(){
+            if(sidenav.style.width=="0px"){
+                sidenav.style.width="250px"
+            }
+            else{
+                sidenav.style.width="0px";
+            }
+        }
+      </script>
+    
+</body>
+</html>
